@@ -11,6 +11,6 @@ import java.math.BigDecimal;
 public class ProductSalesDTO {
     private Long productId;
     private String productName;
-    private Integer totalQuantitySold;  // ← Note the field name matches setter
-    private BigDecimal totalRevenue;     // ← Note the field name matches setter
+    private Integer totalQuantitySold;
+    private BigDecimal totalRevenue;
 }
